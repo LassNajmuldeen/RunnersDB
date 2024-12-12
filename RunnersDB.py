@@ -41,3 +41,14 @@ def list_results():
 
 registrations = load_json("registrations.json")
 results = load_json("results.json")
+
+# Main menu
+def main():
+    while True:
+        print("\n.: Midnight Marathon :.")
+        print("1. Lookup Registration")
+        print("2. List Results")
+        print("3. Exit")
+        choice = input("Choose an option: ").strip()
+
+main()
