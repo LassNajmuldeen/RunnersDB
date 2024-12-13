@@ -1,8 +1,5 @@
 import json
 
-registrations = load_json("registrations.json")
-results = load_json("results.json")
-
 # Load JSON data from files
 def load_json(file_path):
     try:
@@ -42,6 +39,8 @@ def list_results():
     except Exception as e:
         print(f"Error during results listing: {e}")
 
+registrations = load_json("registrations.json")
+results = load_json("results.json")
 
 # Main menu
 def main():
