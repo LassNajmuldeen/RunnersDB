@@ -50,5 +50,13 @@ def main():
         print("2. List Results")
         print("3. Exit")
         choice = input("Choose an option: ").strip()
-
+        if choice == "1":
+           lookup_registration()
+        elif choice == "2":
+            list_results()
+        elif choice == "3":
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please try again.")
 main()
