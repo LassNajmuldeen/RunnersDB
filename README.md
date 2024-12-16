@@ -1,5 +1,5 @@
 # 🏃 Midnight Marathon Results Viewer
-A simple program to search and filter participant data for the Midnight Marathon. The program allows users to look up registrations by race number and list results based on a time filter.
+A simple program to search and filter participant data for the Midnight Marathon. The program allows users to look up registrations by race number and list results based on a time filter. This project was made for my university course in python.
 
 ## 📋 Features
 1. Lookup Registration:
